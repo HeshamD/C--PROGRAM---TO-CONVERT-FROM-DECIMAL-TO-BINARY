@@ -69,7 +69,7 @@ int convertion( int number , int base)
 
     int j = countt-1;
 
-    for( ; j >=0 ; j--)
+    for( ; j > 0 ; j--)
     {
         cout << binNum[j];
     }
